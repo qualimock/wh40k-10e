@@ -4814,40 +4814,40 @@
         <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e440-49f6-b931-16ae" type="max"/>
       </constraints>
       <profiles>
-        <profile id="4ba4-2d3a-a3b2-2a0c" name="1. Rage-fuelled Invigoration" hidden="false" typeId="d07f-b12b-1c73-fa2c" typeName="Blessings of Khorne">
+        <profile id="4ba4-2d3a-a3b2-2a0c" name="1. Unbridled Bloodlust" hidden="false" typeId="d07f-b12b-1c73-fa2c" typeName="Blessings of Khorne">
           <characteristics>
             <characteristic name="Roll" typeId="f99e-3b0d-b8fa-71b6">Any double</characteristic>
-            <characteristic name="Effect" typeId="fcc3-ca7a-d697-7098">Add 2&quot; to the Move characteristic of models in this unit.</characteristic>
+            <characteristic name="Effect" typeId="fcc3-ca7a-d697-7098">You can re-roll Charge rolls made for this unit.</characteristic>
           </characteristics>
         </profile>
-        <profile id="3444-f024-bee5-e731" name="2. Wrathful Devotion" hidden="false" typeId="d07f-b12b-1c73-fa2c" typeName="Blessings of Khorne">
+        <profile id="3444-f024-bee5-e731" name="2. Rage-fuelled Invigoration" hidden="false" typeId="d07f-b12b-1c73-fa2c" typeName="Blessings of Khorne">
           <characteristics>
-            <characteristic name="Roll" typeId="f99e-3b0d-b8fa-71b6">Any double</characteristic>
-            <characteristic name="Effect" typeId="fcc3-ca7a-d697-7098">Models in this unit have the Feel No Pain 6+ ability. If models in this unit already have the Feel No Pain ability, add 1 to their Feel No Pain rolls.</characteristic>
+            <characteristic name="Roll" typeId="f99e-3b0d-b8fa-71b6">Double 2+</characteristic>
+            <characteristic name="Effect" typeId="fcc3-ca7a-d697-7098">Each time a model in this unit makes a Pile-in or Consolidation move, it can move up to 6&quot; instead of up to 3&quot;.</characteristic>
           </characteristics>
         </profile>
-        <profile id="35da-066e-5d34-b312" name="3. Martial Excellence" hidden="false" typeId="d07f-b12b-1c73-fa2c" typeName="Blessings of Khorne">
+        <profile id="35da-066e-5d34-b312" name="4. Martial Excellence" hidden="false" typeId="d07f-b12b-1c73-fa2c" typeName="Blessings of Khorne">
           <characteristics>
-            <characteristic name="Roll" typeId="f99e-3b0d-b8fa-71b6">Double 3+</characteristic>
+            <characteristic name="Roll" typeId="f99e-3b0d-b8fa-71b6">Double 4+ or any triple</characteristic>
             <characteristic name="Effect" typeId="fcc3-ca7a-d697-7098">Melee weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability.</characteristic>
           </characteristics>
         </profile>
-        <profile id="a2db-113d-0cc8-8d7d" name="4. Total Carnage" hidden="false" typeId="d07f-b12b-1c73-fa2c" typeName="Blessings of Khorne">
+        <profile id="a2db-113d-0cc8-8d7d" name="3. Total Carnage" hidden="false" typeId="d07f-b12b-1c73-fa2c" typeName="Blessings of Khorne">
           <characteristics>
-            <characteristic name="Roll" typeId="f99e-3b0d-b8fa-71b6">Double 4+ or any triple</characteristic>
+            <characteristic name="Roll" typeId="f99e-3b0d-b8fa-71b6">Double 3+</characteristic>
             <characteristic name="Effect" typeId="fcc3-ca7a-d697-7098">Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play.</characteristic>
           </characteristics>
         </profile>
         <profile id="fbfe-9079-46e0-0cbf" name="5. Warp Blades" hidden="false" typeId="d07f-b12b-1c73-fa2c" typeName="Blessings of Khorne">
           <characteristics>
-            <characteristic name="Roll" typeId="f99e-3b0d-b8fa-71b6">Double 5+ or any triple</characteristic>
+            <characteristic name="Roll" typeId="f99e-3b0d-b8fa-71b6">Double 5+ or triple 2+</characteristic>
             <characteristic name="Effect" typeId="fcc3-ca7a-d697-7098">Melee weapons equipped by models in this unit have the [LETHAL HITS] ability.</characteristic>
           </characteristics>
         </profile>
-        <profile id="51f5-e7af-9e0f-b904" name="6. Unbridled Bloodlust" hidden="false" typeId="d07f-b12b-1c73-fa2c" typeName="Blessings of Khorne">
+        <profile id="51f5-e7af-9e0f-b904" name="6. Decapitating Strikes" hidden="false" typeId="d07f-b12b-1c73-fa2c" typeName="Blessings of Khorne">
           <characteristics>
-            <characteristic name="Roll" typeId="f99e-3b0d-b8fa-71b6">Double 6 or triple 4+</characteristic>
-            <characteristic name="Effect" typeId="fcc3-ca7a-d697-7098">This unit is eligible to declare a charge in a turn in which it Advanced.</characteristic>
+            <characteristic name="Roll" typeId="f99e-3b0d-b8fa-71b6">Double 6 or triple 3+</characteristic>
+            <characteristic name="Effect" typeId="fcc3-ca7a-d697-7098">Each time a model in this unit makes a melee attack that targets an Infantry unit, that attack has the [DEVASTATING WOUNDS] ability.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4857,6 +4857,9 @@
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
       </costs>
+      <infoLinks>
+        <infoLink name="Devastating Wounds" id="d237-f02e-73e8-3c24" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Hell Talon [Legends]" hidden="false" id="4e04-74aa-2c2f-66d0">
       <costs>
@@ -5587,8 +5590,7 @@
 Once activated, each Blessing of Khorne applies to all units from your army with this ability until the end of the battle round.
 
 Example: Ash makes their Blessings of Khorne roll and gets the following dice: 1, 2, 2, 2, 3, 4, 6, 6. First they use the two 6s to activate Warp Blades (which requires a double 5+), leaving the following dice: 1, 2, 2, 2, 3, 4.
-They then use the two 2s to activate Wrathful Devotion (which requires any double), leaving the following dice: 1, 2, 3, 4.
-However, now that they have activated two Blessings of Khorne, they cannot activate any more and the remaining dice are discarded.</description>
+They then use the two 2s to activate Unbridled Bloodlust. Now that two Blessings of Khorne have been activated, no more can be activated and the remaining dice are discarded.</description>
     </rule>
     <rule name="Relentless Rage" id="5fc9-9ee8-8657-65b4" hidden="false">
       <description>Each time a WORLD EATERS unit from your army is selected to fight, if that unit made a Charge move this turn, until the end of the phase, add 1 to the Strength and Attacks characteristics of melee weapons equipped by models in that unit.</description>
