@@ -40,6 +40,8 @@
     <categoryEntry name="Hell Talon" hidden="false" id="4f9b-f5a5-ad88-6e14"/>
     <categoryEntry name="Hellblade" hidden="false" id="17dd-7d43-376b-664e"/>
     <categoryEntry name="Goremongers" id="ae66-6f22-4ba5-8ef4" hidden="false"/>
+    <categoryEntry name="Slaughterbound" id="e82a-0a91-f098-81c5" hidden="false"/>
+    <categoryEntry name="Possessed" id="ca41-2330-0ff6-6901" hidden="false"/>
   </categoryEntries>
   <entryLinks>
     <entryLink id="37e4-799e-798f-19a8" name="Angron" hidden="false" collective="false" import="true" targetId="f4b8-1179-de57-4d69" type="selectionEntry"/>
@@ -345,6 +347,7 @@
       </infoLinks>
     </entryLink>
     <entryLink import="true" name="Goremongers" hidden="false" id="bd6d-a10d-0bd7-5f0d" type="selectionEntry" targetId="b399-9b66-e550-8050"/>
+    <entryLink import="true" name="Slaughterbound" hidden="false" id="b677-c57a-6281-57d1" type="selectionEntry" targetId="45c6-3a65-d2de-51d8"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="f4b8-1179-de57-4d69" name="Angron" hidden="false" collective="false" import="true" type="model">
@@ -5289,6 +5292,96 @@
       </profiles>
       <comment>Goremongers</comment>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Slaughterbound" hidden="false" id="45c6-3a65-d2de-51d8">
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="90"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="66a9-9bcd-7299-5e33" primary="true" name="Character"/>
+        <categoryLink targetId="cf47-a0d7-7207-29dc" id="310c-6941-806d-83f7" primary="false" name="Infantry"/>
+        <categoryLink targetId="4c00-2578-faf5-6918" id="554c-17e4-d33a-c478" primary="false" name="Chaos"/>
+        <categoryLink targetId="4bd-5ee0-f179-2fc5" id="6005-1ebe-149e-fdd7" primary="false" name="Khorne"/>
+        <categoryLink targetId="bd1d-c1a5-6ca2-c791" id="1a26-5f73-3526-1ad0" primary="false" name="Faction: World Eaters"/>
+        <categoryLink targetId="9c0e-7e25-4580-e439" id="10dc-ac9b-6384-ccea" primary="false" name="Daemon"/>
+        <categoryLink targetId="e82a-0a91-f098-81c5" id="084a-9edc-a043-eb54" primary="false" name="Slaughterbound"/>
+        <categoryLink targetId="ca41-2330-0ff6-6901" id="fb44-c755-2a89-d4dc" primary="false" name="Possessed"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8e4c-4fed-a45f-c433">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following unit:
+- EIGHTBOUND
+- EXALTED EIGHTBOUND</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Rage Eternal" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9c12-1279-d69e-640a">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, in your Command phase, you can return one destroyed Bodyguard model to that unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Possessed Lord" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="07b1-f4f9-8d08-2c63">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle, at the start of Fight phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by this model and those weapons have the [DEVASTATING WOUNDS] ability.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Slaughterbound" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="d47c-698d-056b-3f10">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">6</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ca9d-a500-f24f-99e0">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Lacerator and daemonic claw" hidden="false" id="8636-a205-c9ad-8436">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bda6-32dd-735c-adde"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c791-e635-c406-199b"/>
+          </constraints>
+          <profiles>
+            <profile name="Lacerator and daemonic claw" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="5d9e-ed14-8283-994f">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="force" shared="true" id="cdcd-6ec2-b726-e34e" includeChildSelections="false"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Warlord" hidden="false" id="9ce5-0a4a-f81a-679d" type="selectionEntry" targetId="9754-481c-c292-a1f9"/>
+        <entryLink import="true" name="Enhancements" hidden="false" id="0c72-c8fe-774d-5a33" collective="false" targetId="7b6d-6d90-0ffe-b45b" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Devastating Wounds" id="cd72-477a-093f-06eb" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
+        <infoLink name="Deadly Demise" id="5785-5e22-45cf-3cac" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
+          <modifiers>
+            <modifier type="append" value="D3" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Lacerator and daemonic claw" hidden="false" id="cae2-75e8-9d7e-344f"/>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="7b6d-6d90-0ffe-b45b" name="Enhancements" hidden="false" collective="false" import="true">
