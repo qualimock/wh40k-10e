@@ -4793,6 +4793,14 @@
                 <infoLink name="Relentless Rage" id="56be-fcfa-0e77-92fa" hidden="false" type="rule" targetId="5fc9-9ee8-8657-65b4"/>
               </infoLinks>
             </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Cult of Blood" hidden="false" id="5285-e4d0-748d-1305" collective="false">
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Idols of Khorne" id="0346-794b-9718-a83b" hidden="false" type="rule" targetId="13aa-7b1c-494d-c193"/>
+              </infoLinks>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -5389,20 +5397,20 @@
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry id="33e2-4ee8-2e10-3e47" name="Battle-lust" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="33e2-4ee8-2e10-3e47" name="Chosen of the Blood God" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf42-3c8e-7dc5-6610" type="max"/>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="13d8-a20b-81e1-3556" includeChildSelections="true"/>
           </constraints>
           <profiles>
-            <profile id="af9c-8493-aaf3-766a" name="Battle-lust" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+            <profile id="af9c-8493-aaf3-766a" name="Chosen of the Blood God" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">WORLD EATERS model only. You can re-roll Charge rolls made for the bearer&apos;s unit. In addition, while the Unbridled Bloodlust Blessing of Khorne is active for your army, add 1 to Charge rolls made for the bearer&apos;s unit.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">WORLD EATERS MONSTER model only. Add 3&quot; to the range of the bearer&apos;s Aura abilities.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="10"/>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
             <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
             <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
             <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -5411,7 +5419,7 @@
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="equalTo" value="0" field="selections" scope="force" childId="3490-ec82-70b3-c5cf" shared="true" includeChildSelections="true"/>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="5285-e4d0-748d-1305" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -5470,6 +5478,114 @@
             </modifier>
           </modifiers>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Battle-lust" hidden="false" id="d580-2ecd-2317-e16a" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="92a7-6367-aec2-5c55" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="acf1-4a0f-0c90-32d1" includeChildSelections="true"/>
+          </constraints>
+          <profiles>
+            <profile name="Battle-lust" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="aa43-d5ba-7b03-3a34">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">WORLD EATERS model only. You can re-roll Charge rolls made for the bearer&apos;s unit. In addition, while the Unbridled Bloodlust Blessing of Khorne is active for your army, add 1 to Charge rolls made for the bearer&apos;s unit.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="10"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="3490-ec82-70b3-c5cf" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Butcher Lord" hidden="false" id="ffdf-5e79-2b8b-dc7e" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="357f-9357-383b-24e1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0416-f148-2803-fecc" includeChildSelections="true"/>
+          </constraints>
+          <profiles>
+            <profile name="Butcher Lord" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="194d-d6f7-9807-fe06">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">WORLD EATERS INFANTRY model only. During the Declare Battle Formations step, the bearer can be attached to a Jackals or Goremongers unit. If attached to a Goremongers unit, the bearer has the Infiltrators ability.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="10"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="5285-e4d0-748d-1305" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Brazen Form" hidden="false" id="7df6-42a9-c858-4dd1" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e1ac-4c7d-4b67-582f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="084b-4606-b9f4-4f1a" includeChildSelections="true"/>
+          </constraints>
+          <profiles>
+            <profile name="Brazen Form" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="18a9-8bc7-cccf-816b">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">WORLD EATERS MONSTER model only. Add 1 to the bearer&apos;s Toughness characteristic and the bearer has the Feel No Pain 5+ ability.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="5285-e4d0-748d-1305" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Strategic Slaughter" hidden="false" id="1989-91b3-c9ee-64c5" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e9f-b3d4-3b29-a195" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="31b0-4da5-6769-5e62" includeChildSelections="true"/>
+          </constraints>
+          <profiles>
+            <profile name="Strategic Slaughter" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a487-d230-76e2-8ce8">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">WORLD EATERS model only. After both players have deployed their armies, select up to three Jackals and/or Goremongers units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="5285-e4d0-748d-1305" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
@@ -5490,6 +5606,37 @@ They then use the two 2s to activate Unbridled Bloodlust. Now that two Blessings
               <conditions>
                 <condition type="equalTo" value="0" field="selections" scope="force" childId="3490-ec82-70b3-c5cf" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                 <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="3490-ec82-70b3-c5cf" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </rule>
+    <rule name="Idols of Khorne" id="13aa-7b1c-494d-c193" hidden="false">
+      <description>At the start of your Command phase, you can select one of the Idols of Khorne abilities listed below. Until the start of your next Command phase that ability is active and its effects apply to all World Eaters Titanic and World Eaters Monster units from your army. You can only select each Idols of Khorne ability once per battle.
+
+
+Idol of Infinite Rage (Aura)
+While a friendly Jackals or Goremongers unit is within 6&quot; of this model (or within 9&quot; if this model is Titanic), each time a model in that unit makes an attack, add 1 to the Hit roll and 1 to the Wound roll.
+
+
+Idol of Burning Wrath (Aura)
+While a friendly Jackals or Goremongers unit is within 6&quot; of this model (or within 9&quot; if this model is Titanic), add 1&quot; to the Move characteristic of models in that unit and add 1 to Advance and Charge rolls made for that unit.
+
+
+Idol of Blessed Blood (Aura)
+While a friendly Jackals or Goremongers unit is within 6&quot; of this model (or within 9&quot; if this model is Titanic), models in that unit have a 4+ invulnerable save.
+
+
+Keywords:
+Jackals and Goremongers units from your army have the Battleline keyword.</description>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="5285-e4d0-748d-1305" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="5285-e4d0-748d-1305" shared="true" includeChildSelections="false"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
