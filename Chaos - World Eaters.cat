@@ -4809,6 +4809,11 @@
                 <infoLink name="Blood Tithe" id="ed34-1f18-30d0-43a7" hidden="false" type="rule" targetId="c52d-c30a-56ce-e9fd"/>
               </infoLinks>
             </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Possessed Slaughterband" hidden="false" id="e4f7-637a-83f6-3175">
+              <infoLinks>
+                <infoLink name="Brazen Fury" id="fba8-39c1-4ee5-45f4" hidden="false" type="rule" targetId="dd47-f032-8a17-4037"/>
+              </infoLinks>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -5702,6 +5707,114 @@
             </modifier>
           </modifiers>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Malicious Vigour" hidden="false" id="eaa9-175f-6ab3-3f2e" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9c33-6efd-cc63-1dc6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="81b1-752d-ca1b-be02" includeChildSelections="true"/>
+          </constraints>
+          <profiles>
+            <profile name="Malicious Vigour" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dfde-381c-7f35-6fbd">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">SLAUGHTERBOUND model only. Each time the bearer&apos;s unit makes a Brazen Fury move, it is treated as having rolled a 6 for the distance the unit can be moved.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="30"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="e4f7-637a-83f6-3175" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Killing Clarity" hidden="false" id="9816-159b-a423-1535" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8a94-fcae-0f3d-4279" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d1d3-fd03-05df-9eb5" includeChildSelections="true"/>
+          </constraints>
+          <profiles>
+            <profile name="Killing Clarity" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e304-fcbb-5917-eb64">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">WORLD EATERS DAEMON model only. Each time the bearer&apos;s unit destroys an enemy unit, roll one D6: on a 4+ you gain 1CP.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="e4f7-637a-83f6-3175" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Frenzied Focus" hidden="false" id="e5de-433b-0012-4bce" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b83c-cb8a-6ddd-b77a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9f77-cb98-dfa8-e101" includeChildSelections="true"/>
+          </constraints>
+          <profiles>
+            <profile name="Frenzied Focus" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8cf0-6a38-8aec-8751">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">WORLD EATERS DAEMON model only. Each time a model in the bearer&apos;s unit makes an attack, a Critical Hit is scored on an unmodified Hit roll of 5+, instead of only a 6.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="e4f7-637a-83f6-3175" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Violent Demise" hidden="false" id="3d02-28e1-2017-22de" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8183-12a8-ee58-02e8" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="368d-fa00-3895-3149" includeChildSelections="true"/>
+          </constraints>
+          <profiles>
+            <profile name="Violent Demise" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e03a-21e1-8502-a67c">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">WORLD EATERS DAEMON model only. The bearer&apos;s Deadly Demise ability inflicts mortal wounds on a D6 roll of 2+ instead of on a 6. In addition, the bearer has the Deadly Demise D3+1 ability, instead of the Deadly Demise D3 ability.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="10"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="e4f7-637a-83f6-3175" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
@@ -5798,6 +5911,24 @@ No Blood Legions model from your army can be your Warlord.</description>
               <conditions>
                 <condition type="equalTo" value="0" field="selections" scope="force" childId="973d-667f-b6be-d6d1" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                 <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="973d-667f-b6be-d6d1" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </rule>
+    <rule name="Brazen Fury" id="dd47-f032-8a17-4037" hidden="false">
+      <description>World Eaters Possessed units from your army have the following ability:
+
+
+Brazen Fury: In your opponent&apos;s Shooting phase, each time an enemy unit has shot, if any models from this unit were destroyed, as a result of those attacks, this unit can make a Brazen Fury move. To do so, roll one D6: models in this unit move a number of inches up to this result, but this unit must end that move as close as possible to the closest enemy unit (excluding Aircraft). When doing so, those models can be moved within Engagement Range of that enemy unit. This unit cannot make a Brazen Fury move while it is Battle-shocked or within Engagement Range of one or more enemy units, and can only make one Brazen Fury move per phase.</description>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="e4f7-637a-83f6-3175" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="e4f7-637a-83f6-3175" shared="true" includeChildSelections="false"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
