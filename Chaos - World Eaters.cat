@@ -4793,11 +4793,6 @@
                 <infoLink name="Relentless Rage" id="56be-fcfa-0e77-92fa" hidden="false" type="rule" targetId="5fc9-9ee8-8657-65b4"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Vessels of Wrath" hidden="false" id="70d9-0c7a-6b46-65fa">
-              <infoLinks>
-                <infoLink name="Wrath of Khorne" id="7328-609a-e1fc-56e9" hidden="false" type="rule" targetId="269f-6b39-4a8e-0872"/>
-              </infoLinks>
-            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -5475,124 +5470,6 @@
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Archslaughterer" hidden="false" id="5b76-3e1c-8801-1e4b">
-          <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
-            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
-            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
-            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
-            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
-          </costs>
-          <profiles>
-            <profile name="Archslaughterer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a978-65ee-3f97-bf3e">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Improve the Armour Penetration characteristic of melee weapons equipped by the bearer by 1. While the bearer is a VESSEL OF WRATH, improve the Damage characteristic of those weapons by 1 as well.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c732-ccbc-18cd-2a44" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c952-8b9a-9dfc-9e97" includeChildSelections="true"/>
-          </constraints>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="equalTo" value="0" field="selections" scope="force" childId="70d9-0c7a-6b46-65fa" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Vox-Diabolus" hidden="false" id="4548-4f87-97e8-fc14">
-          <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
-            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
-            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
-            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
-            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
-          </costs>
-          <profiles>
-            <profile name="Vox-Diabolus" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f90a-708b-66ed-92a7">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time the bearer’s unit destroys an enemy unit with a melee attack, roll one D6, adding 1 to the result if the bearer is a VESSEL OF WRATH: on a 4+, you gain 1CP.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7b1e-6da4-2db7-57ae" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="400c-4c9b-d118-58c6" includeChildSelections="true"/>
-          </constraints>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="equalTo" value="0" field="selections" scope="force" childId="70d9-0c7a-6b46-65fa" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Avenger&apos;s Crown" hidden="false" id="ebe6-5a5b-cdf3-815f">
-          <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
-            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
-            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
-            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
-            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
-          </costs>
-          <profiles>
-            <profile name="Avenger&apos;s Crown" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d91c-04ad-b9b6-5b22">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If the bearer is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 2+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6b3b-633c-d770-cffb" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2200-18d5-070f-8e1a" includeChildSelections="true"/>
-          </constraints>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="equalTo" value="0" field="selections" scope="force" childId="70d9-0c7a-6b46-65fa" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Gateways to Glory" hidden="false" id="0986-e2aa-a2d9-f0db">
-          <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="10"/>
-            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
-            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
-            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
-            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
-          </costs>
-          <profiles>
-            <profile name="Gateways to Glory" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="65c6-d26c-bd71-866a">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time the bearer makes a Normal, Advance or Charge move, it can move horizontally through models and terrain features. When doing so, it can move within Engagement Range of such models but cannot end a Normal or Advance move within Engagement Range of them.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7856-f50f-e05f-55ce" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b8cb-0aad-5654-931f" includeChildSelections="true"/>
-          </constraints>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="equalTo" value="0" field="selections" scope="force" childId="70d9-0c7a-6b46-65fa" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="true" field="hidden">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="4f09-0141-6c70-6c5a" shared="true" includeChildSelections="false"/>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="14a0-40c9-2748-ae6e" shared="true" includeChildSelections="false"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
@@ -5613,37 +5490,6 @@ They then use the two 2s to activate Unbridled Bloodlust. Now that two Blessings
               <conditions>
                 <condition type="equalTo" value="0" field="selections" scope="force" childId="3490-ec82-70b3-c5cf" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                 <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="3490-ec82-70b3-c5cf" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </rule>
-    <rule name="Wrath of Khorne" id="269f-6b39-4a8e-0872" hidden="false">
-      <description>At the start of the battle round, after activating Blessings of Khorne, you can select one or more models from your army from those listed below (including models that are embarked within Transports): 
-- WORLD EATERS CHARACTER (excluding EPIC HEROES) 
-- Eightbound Champion 
-- Exalted Eightbound Champion 
-- Khorne Berzerker Champion 
-- World Eaters Terminator Champion 
-
-
-You can select the same type of model multiple times. The maximum number of models you can select depends on the battle size, as follows: 
-
-
-INCURSION: 2 MODELS
-STRIKE FORCE: 3 MODELS
-ONSLAUGHT: 4 MODELS 
-
-
-Until the end of the battle round, each of those models has the VESSEL OF WRATH keyword (we recommend marking such models with a suitable token). Then, select one Blessing of Khorne that is not currently active for your army. Until the end of the battle round, that Blessing of Khorne is active for VESSEL OF WRATH units from your army in addition to any others that are active for your army.</description>
-      <modifiers>
-        <modifier type="set" value="true" field="hidden">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="equalTo" value="0" field="selections" scope="force" childId="70d9-0c7a-6b46-65fa" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="70d9-0c7a-6b46-65fa" shared="true" includeChildSelections="false"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
