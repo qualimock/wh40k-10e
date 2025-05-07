@@ -5379,7 +5379,7 @@
           <profiles>
             <profile id="7c39-79a3-1f05-dae0" name="Berzerker Glaive" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">WORLD EATERS model only. Add 1 to the Attacks and Damage characteristics of melee weapons equipped by the bearer.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">WORLD EATERS model only. Add 1 to the Attacks and Damage characteristics of melee weapons (excluding Extra Attacks weapons) equipped by the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5402,12 +5402,16 @@
           <profiles>
             <profile id="af9c-8493-aaf3-766a" name="Battle-lust" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">WORLD EATERS model only. You can select the bearer’s unit for the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">WORLD EATERS model only. You can re-roll Charge rolls made for the bearer&apos;s unit. In addition, while the Unbridled Bloodlust Blessing of Khorne is active for your army, add 1 to Charge rolls made for the bearer&apos;s unit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="10"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
           </costs>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -5425,12 +5429,16 @@
           <profiles>
             <profile id="d3de-dea9-ed71-fb84" name="Helm of Brazen Ire" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">WORLD EATERS model only. Each time an attack is allocated to the bearer, halve the Damage characteristic of that attack.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">WORLD EATERS model only. Each time an attack is allocated to the bearer, subtract 1 from the Damage characteristic of that attack.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
           </costs>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -5448,12 +5456,16 @@
           <profiles>
             <profile id="4f04-7487-9744-59d4" name="Favoured of Khorne" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">WORLD EATERS model only. Once per battle, when you make a Blessings of Khorne roll, before doing anything else, the bearer can use this Enhancement. If it does, discard all of the dice from that roll and make a new Blessings of Khorne roll. This new roll does not count as a re-roll, so any rules that enable you to re-roll or manipulate individual dice (e.g. Icon of Khorne) can still be used.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">WORLD EATERS model only. Each time you make a Blessings of Khorne roll, if the bearer is on the battlefield, you can re-roll up to two of the D6 rolled.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
           </costs>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -5593,7 +5605,7 @@ Example: Ash makes their Blessings of Khorne roll and gets the following dice: 1
 They then use the two 2s to activate Unbridled Bloodlust. Now that two Blessings of Khorne have been activated, no more can be activated and the remaining dice are discarded.</description>
     </rule>
     <rule name="Relentless Rage" id="5fc9-9ee8-8657-65b4" hidden="false">
-      <description>Each time a WORLD EATERS unit from your army is selected to fight, if that unit made a Charge move this turn, until the end of the phase, add 1 to the Strength and Attacks characteristics of melee weapons equipped by models in that unit.</description>
+      <description>Each time a WORLD EATERS unit from your army makes a Charge move, until the end of the turn, add 1 to the Attacks characteristic and add 2 to the Strength characteristic of melee weapons equipped by models in that unit.</description>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditionGroups>
