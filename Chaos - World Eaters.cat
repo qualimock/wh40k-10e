@@ -4801,6 +4801,14 @@
                 <infoLink name="Idols of Khorne" id="0346-794b-9718-a83b" hidden="false" type="rule" targetId="13aa-7b1c-494d-c193"/>
               </infoLinks>
             </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Khorne Daemonkin" hidden="false" id="973d-667f-b6be-d6d1" collective="false">
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Blood Tithe" id="ed34-1f18-30d0-43a7" hidden="false" type="rule" targetId="c52d-c30a-56ce-e9fd"/>
+              </infoLinks>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -5586,6 +5594,114 @@
             </modifier>
           </modifiers>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Blade of Endless Bloodshed" hidden="false" id="20a7-b5f7-6fc4-00c9" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6aab-2c94-491b-83d4" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="eeb8-4093-b479-f145" includeChildSelections="true"/>
+          </constraints>
+          <profiles>
+            <profile name="Blade of Endless Bloodshed" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="65f0-0f76-2644-c728">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">WORLD EATERS model only. Add 1 to the Attacks, Strength and Damage characteristics of the bearer&apos;s melee weapons. Each time the bearer&apos;s unit destroys an enemy unit with a melee attack, do not roll to gain a Blood Tithe point, you automatically gain 1 Blood Tithe point instead.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="30"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="973d-667f-b6be-d6d1" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Blood-forged Armour" hidden="false" id="d8e2-0014-a441-0368" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e74b-53de-d057-9d94" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="888d-d372-9398-5e9a" includeChildSelections="true"/>
+          </constraints>
+          <profiles>
+            <profile name="Blood-forged Armour" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="187c-faf9-d237-d8ce">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">BLOOD LEGIONS or WORLD EATERS model only. The bearer has a Save characteristic of 2+. If the bearer is destroyed, you gain 1 Blood Tithe point.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="973d-667f-b6be-d6d1" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Disciple of Khorne" hidden="false" id="ceb0-67ea-7b36-a6bd" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd9c-2b99-8b86-fc21" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e299-8121-4647-2aab" includeChildSelections="true"/>
+          </constraints>
+          <profiles>
+            <profile name="Disciple of Khorne" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6d62-2e62-9e1d-dd13">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lord on Juggernaut model only. During the Declare Battle Formations step, the bearer can be attached to a Bloodcrushers or Flesh Hounds unit. While leading one of these units, the bearer has the Deep Strike ability, and it has the Blood Legions Faction keyword instead of the World Eaters Faction keyword.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="973d-667f-b6be-d6d1" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Icon of War" hidden="false" id="d615-45b7-4d4b-afa3" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2617-67a1-2beb-53a0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b7c7-21b5-470e-4e0f" includeChildSelections="true"/>
+          </constraints>
+          <profiles>
+            <profile name="Icon of War" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8d5a-4c53-b22a-d42b">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">WORLD EATERS model only. While a friendly Blood Legions unit is within 6&quot; of the bearer, that unit has the Blessings of Khorne ability. If the Might of Khorne ability is active for your army, then while a friendly Blood Legions unit is within 6&quot; of the bearer, you can re-roll Battle-shock tests taken for that unit.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="973d-667f-b6be-d6d1" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
@@ -5637,6 +5753,51 @@ Jackals and Goremongers units from your army have the Battleline keyword.</descr
               <conditions>
                 <condition type="equalTo" value="0" field="selections" scope="force" childId="5285-e4d0-748d-1305" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                 <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="5285-e4d0-748d-1305" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </rule>
+    <rule name="Blood Tithe" id="c52d-c30a-56ce-e9fd" hidden="false">
+      <description>Each time a Blood Legions or World Eaters unit from your army destroys an enemy unit, roll one D6: on a 3+, you gain 1 Blood Tithe point (BTP). At the start of the Command phase, you can spend one or more of your BTP to activate one of the following abilities until the end of the battle:
+
+
+Enraged Abjuration [2 BTP]
+Blood Legions and World Eaters models from your army have the Feel No Pain 5+ ability against Psychic Attacks and mortal wounds.
+
+
+Daemonic Rage [3 BTP]
+Melee weapons equipped by Blood Legions units from your army have the [LANCE] ability.
+
+
+Boon of Blood [4 BTP]
+Blood Legions units from your army have a 4+ invulnerable save.
+
+
+Might of Khorne [5 BTP]
+Blood Legions units from your army gain the Blessings of Khorne ability.
+
+
+Restrictions
+
+
+You can include Blood Legions units in your army. The combined points cost of such units you can include in your army is:
+
+
+Incursion: Up to 500 pts
+Strike Force: Up to 1000 pts
+Onslaught: Up to 1500 pts
+
+
+No Blood Legions model from your army can be your Warlord.</description>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="973d-667f-b6be-d6d1" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="973d-667f-b6be-d6d1" shared="true" includeChildSelections="false"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
