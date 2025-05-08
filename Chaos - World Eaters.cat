@@ -49,23 +49,23 @@
     <entryLink id="e6a1-7ae6-b759-9a96" name="Lord Invocatus" hidden="false" collective="false" import="true" targetId="3b15-b424-2059-71fa" type="selectionEntry"/>
     <entryLink id="9537-27cc-2058-3ccc" name="Daemon Prince of Khorne" hidden="false" collective="false" import="true" targetId="40c5-9ebd-6d42-2855" type="selectionEntry"/>
     <entryLink id="7541-4d29-df98-afc4" name="Daemon Prince of Khorne with wings" hidden="false" collective="false" import="true" targetId="0294-61a4-c6ed-b2e8" type="selectionEntry"/>
-    <entryLink id="222c-8db7-5b68-a060" name="World Eaters Lord on Juggernaut" hidden="false" collective="false" import="true" targetId="ec72-f024-4283-0558" type="selectionEntry"/>
-    <entryLink id="ca7d-c77a-28e2-7b6b" name="World Eaters Master of Executions" hidden="false" collective="false" import="true" targetId="1b56-682c-ac33-bc5f" type="selectionEntry"/>
+    <entryLink id="222c-8db7-5b68-a060" name="Lord on Juggernaut" hidden="false" collective="false" import="true" targetId="ec72-f024-4283-0558" type="selectionEntry"/>
+    <entryLink id="ca7d-c77a-28e2-7b6b" name="Master of Executions" hidden="false" collective="false" import="true" targetId="1b56-682c-ac33-bc5f" type="selectionEntry"/>
     <entryLink id="b250-a2f9-7098-353d" name="Khorne Berzerkers" hidden="false" collective="false" import="true" targetId="f909-00c7-8ba4-018a" type="selectionEntry"/>
     <entryLink id="94b7-fa73-a8cd-5b9d" name="World Eaters Terminator Squad" hidden="false" collective="false" import="true" targetId="45f6-8429-a1d9-2a51" type="selectionEntry"/>
     <entryLink id="8568-71db-b833-93d5" name="Jakhals" hidden="false" collective="false" import="true" targetId="6f81-4538-a414-251e" type="selectionEntry"/>
     <entryLink id="96aa-4baa-2cb2-da3d" name="Eightbound" hidden="false" collective="false" import="true" targetId="9435-1f44-7e5b-d510" type="selectionEntry"/>
     <entryLink id="e213-0676-347e-9292" name="Exalted Eightbound" hidden="false" collective="false" import="true" targetId="9932-3d2b-1e47-d53b" type="selectionEntry"/>
-    <entryLink id="79da-4515-ca6e-ce6c" name="World Eaters Land Raider" hidden="false" collective="false" import="true" targetId="4251-bd4f-f7ac-9487" type="selectionEntry"/>
-    <entryLink id="2036-652e-faf4-0d0e" name="World Eaters Predator Annihilator" hidden="false" collective="false" import="true" targetId="497c-f787-5a7e-1020" type="selectionEntry"/>
-    <entryLink id="0b05-8696-2b92-85a5" name="World Eaters Predator Destructor" hidden="false" collective="false" import="true" targetId="04a0-269e-3bab-2c61" type="selectionEntry"/>
-    <entryLink id="9b39-b485-dbc8-fcf9" name="World Eaters Defiler" hidden="false" collective="false" import="true" targetId="ea51-5575-9e74-9346" type="selectionEntry"/>
-    <entryLink id="b3d8-740b-9c4a-c031" name="World Eaters Forgefiend" hidden="false" collective="false" import="true" targetId="81e1-b212-69c1-308f" type="selectionEntry"/>
-    <entryLink id="f867-cbc9-d166-18eb" name="World Eaters Helbrute" hidden="false" collective="false" import="true" targetId="273a-db24-3f7c-b977" type="selectionEntry"/>
-    <entryLink id="64bc-5065-4f9e-4564" name="World Eaters Heldrake" hidden="false" collective="false" import="true" targetId="de2e-8fae-9d22-24a4" type="selectionEntry"/>
-    <entryLink id="6afa-65ac-21df-090d" name="World Eaters Maulerfiend" hidden="false" collective="false" import="true" targetId="a619-8a52-be03-3bd5" type="selectionEntry"/>
-    <entryLink id="891d-f175-70de-994e" name="World Eaters Rhino" hidden="false" collective="false" import="true" targetId="e849-ce40-ee43-7623" type="selectionEntry"/>
-    <entryLink id="4d07-d613-ee8a-1a27" name="World Eaters Chaos Spawn" hidden="false" collective="false" import="true" targetId="edde-57bf-bccc-d8b2" type="selectionEntry"/>
+    <entryLink id="79da-4515-ca6e-ce6c" name="Chaos Land Raider" hidden="false" collective="false" import="true" targetId="4251-bd4f-f7ac-9487" type="selectionEntry"/>
+    <entryLink id="2036-652e-faf4-0d0e" name="Chaos Predator Annihilator" hidden="false" collective="false" import="true" targetId="497c-f787-5a7e-1020" type="selectionEntry"/>
+    <entryLink id="0b05-8696-2b92-85a5" name="Chaos Predator Destructor" hidden="false" collective="false" import="true" targetId="04a0-269e-3bab-2c61" type="selectionEntry"/>
+    <entryLink id="9b39-b485-dbc8-fcf9" name="Defiler" hidden="false" collective="false" import="true" targetId="ea51-5575-9e74-9346" type="selectionEntry"/>
+    <entryLink id="b3d8-740b-9c4a-c031" name="Forgefiend" hidden="false" collective="false" import="true" targetId="81e1-b212-69c1-308f" type="selectionEntry"/>
+    <entryLink id="f867-cbc9-d166-18eb" name="Helbrute" hidden="false" collective="false" import="true" targetId="273a-db24-3f7c-b977" type="selectionEntry"/>
+    <entryLink id="64bc-5065-4f9e-4564" name="Heldrake" hidden="false" collective="false" import="true" targetId="de2e-8fae-9d22-24a4" type="selectionEntry"/>
+    <entryLink id="6afa-65ac-21df-090d" name="Maulerfiend" hidden="false" collective="false" import="true" targetId="a619-8a52-be03-3bd5" type="selectionEntry"/>
+    <entryLink id="891d-f175-70de-994e" name="Chaos Rhino" hidden="false" collective="false" import="true" targetId="e849-ce40-ee43-7623" type="selectionEntry"/>
+    <entryLink id="4d07-d613-ee8a-1a27" name="Chaos Spawn" hidden="false" collective="false" import="true" targetId="edde-57bf-bccc-d8b2" type="selectionEntry"/>
     <entryLink id="92f2-c2b5-a0c8-6e19" name="Khorne Lord of Skulls" hidden="false" collective="false" import="true" targetId="836c-f65b-6bcb-9663" type="selectionEntry"/>
     <entryLink id="8d4f-a4cb-ec1c-7f95" name="Blessings of Khorne Reference" hidden="false" collective="false" import="true" targetId="5558-f47e-9f45-3fca" type="selectionEntry"/>
     <entryLink id="d325-e694-6930-accb" name="Detachment Choice" hidden="false" collective="false" import="true" targetId="84c8-b821-877d-72e6" type="selectionEntry"/>
@@ -1702,7 +1702,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry id="45f6-8429-a1d9-2a51" name="World Eaters Terminator Squad" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="45f6-8429-a1d9-2a51" name="Chaos Terminators" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="51b2-306e-1021-d207" value="370">
           <conditions>
@@ -1774,7 +1774,7 @@
         <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bafc-43a3-0d00-77c9" type="max"/>
       </constraints>
       <profiles>
-        <profile id="4a04-656d-10de-c271" name="World Eaters Terminator" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+        <profile id="4a04-656d-10de-c271" name="Chaos Terminators" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">7&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
