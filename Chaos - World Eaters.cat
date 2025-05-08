@@ -3049,17 +3049,18 @@
           <characteristics>
             <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
             <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 1, Twin-linked</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 2, Sustained Hits 1, Twin-linked</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="5923-f9bf-3f66-a841" name="Sustained Hits" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
         <infoLink id="9fde-2f5c-ffd6-6ece" name="Twin-linked" hidden="false" targetId="cf93-ad4d-2f08-a79d" type="rule"/>
+        <infoLink name="Rapid Fire" id="06b6-0eec-9047-dffb" hidden="false" type="rule" targetId="c5c8-8b58-b8b6-7786"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
@@ -3834,14 +3835,14 @@
         <infoLink name="Rapid Fire" id="b99c-9389-c0c8-3d35" hidden="false" type="rule" targetId="c5c8-8b58-b8b6-7786"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry id="273a-db24-3f7c-b977" name="World Eaters Helbrute" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="273a-db24-3f7c-b977" name="Helbrute" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fba2-a1e0-bf62-d804" type="max"/>
       </constraints>
       <profiles>
-        <profile id="2085-50f0-f7e1-0065" name="World Eaters Helbrute" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+        <profile id="2085-50f0-f7e1-0065" name="Helbrute" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">9&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">8</characteristic>
@@ -3851,7 +3852,7 @@
         </profile>
         <profile id="2f94-5892-1327-89f6" name="Frenzy" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time an enemy unit targets this model, after that unit has finished making its attacks, this model can either shoot as if it were your Shooting phase or fight as if it were the Fight phase.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your opponent&apos;s Shooting phase, and in the Fight phase, each time an enemy unit targets this model, after that unit has finished making its attacks, this model can either shoot or fight, but when resolving those attacks it can only target that enemy unit (and only if it is an eligible target).</characteristic>
           </characteristics>
         </profile>
         <profile id="95b1-3a4a-5a80-8bd5" name="Helbrute fists" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -3890,16 +3891,17 @@
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Melta 2</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Melta 2, Rapid Fire 1</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
                 <infoLink id="4f19-25d4-dad1-7f0c" name="Melta" hidden="false" targetId="7cdb-fb99-44a9-8849" type="rule"/>
+                <infoLink name="Rapid Fire" id="7534-e024-f216-9124" hidden="false" type="rule" targetId="c5c8-8b58-b8b6-7786"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
@@ -3914,16 +3916,17 @@
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 2, Twin-linked</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
                 <infoLink name="Twin-linked" hidden="false" type="rule" id="c85a-85aa-2f3b-4362" targetId="cf93-ad4d-2f08-a79d"/>
+                <infoLink name="Rapid Fire" id="60a6-1096-2946-9517" hidden="false" type="rule" targetId="c5c8-8b58-b8b6-7786"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry id="1f9f-ed59-6c0c-64e0" name="Helbrute fist with heavy flamer" hidden="false" collective="false" import="true" type="upgrade">
@@ -3954,23 +3957,24 @@
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Helbrute plasma cannon" hidden="false" id="1cc2-ec19-93cd-5374">
+            <selectionEntry type="upgrade" import="true" name="Plasma cannon" hidden="false" id="1cc2-ec19-93cd-5374">
               <profiles>
-                <profile name="Helbrute plasma cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="55df-3e4e-7496-90c5">
+                <profile name="Plasma cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="55df-3e4e-7496-90c5">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Hazardous</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Hazardous, Rapid Fire D3</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
                 <infoLink name="Blast" hidden="false" type="rule" id="9a18-2923-c9cd-4c4e" targetId="6c1f-1cf7-ff25-c99e"/>
                 <infoLink name="Hazardous" hidden="false" type="rule" id="edad-e068-857d-ed0e" targetId="8367-374c-f87-c627"/>
+                <infoLink name="Rapid Fire" id="16e2-0dcb-e80b-b72a" hidden="false" type="rule" targetId="c5c8-8b58-b8b6-7786"/>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
@@ -4019,27 +4023,28 @@
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Rapid Fire 3</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="9296-f12a-ad7f-30c4" name="➤ Missile launcher - krak" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 1</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
                 <infoLink id="c367-ed54-79e9-9c28" name="Blast" hidden="false" targetId="6c1f-1cf7-ff25-c99e" type="rule"/>
+                <infoLink name="Rapid Fire" id="60ad-e4da-03ce-f55a" hidden="false" type="rule" targetId="c5c8-8b58-b8b6-7786"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
@@ -4050,7 +4055,7 @@
                 <profile id="fc6f-24af-e553-0c3d" name="Helbrute hammer" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
                   <characteristics>
                     <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                    <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
                     <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">14</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
@@ -4068,7 +4073,7 @@
                 <profile id="b7a2-e159-fe07-db5d" name="Power scourge" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
                   <characteristics>
                     <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                    <characteristic name="A" typeId="2337-daa1-6682-b110">8</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">10</characteristic>
                     <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">7</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
@@ -4085,7 +4090,11 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="130"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="165"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Close combat weapon" hidden="false" id="70b-bdff-5001-4b21">
@@ -4097,7 +4106,7 @@
             <profile name="Close combat weapon" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="6abd-b956-2a51-241">
               <characteristics>
                 <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
                 <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
@@ -4115,16 +4124,17 @@
           <characteristics>
             <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
             <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+1</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 1, Twin-linked</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="b020-9fc4-0110-58d8" name="Twin-linked" hidden="false" targetId="cf93-ad4d-2f08-a79d" type="rule"/>
+        <infoLink name="Rapid Fire" id="4874-42ae-fc56-dfb2" hidden="false" type="rule" targetId="c5c8-8b58-b8b6-7786"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
@@ -4139,7 +4149,7 @@
         <profile id="9357-93a0-fa7d-ddbc" name="Helbrute fist" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
           <characteristics>
             <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-            <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
             <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
             <characteristic name="S" typeId="ab33-d393-96ce-ccba">12</characteristic>
             <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
