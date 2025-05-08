@@ -1015,7 +1015,7 @@
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ec72-f024-4283-0558" name="World Eaters Lord on Juggernaut" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="ec72-f024-4283-0558" name="Lord on Juggernaut" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4da9-da84-1c07-3ffc" type="max"/>
       </constraints>
@@ -1025,7 +1025,7 @@
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, models in that unit have a Move characteristic of 10&quot; and each time a model in that unit makes a Normal, Advance, Fall Back or Charge move, it can move horizontally through terrain features.</characteristic>
           </characteristics>
         </profile>
-        <profile id="b8ca-cc7b-60ae-7c4b" name="World Eaters Lord on Juggernaut" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+        <profile id="b8ca-cc7b-60ae-7c4b" name="Lord on Juggernaut" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
@@ -1167,12 +1167,12 @@
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1b56-682c-ac33-bc5f" name="World Eaters Master of Executions" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="1b56-682c-ac33-bc5f" name="Master of Executions" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="94e5-a1e3-c965-2ccc" type="max"/>
       </constraints>
       <profiles>
-        <profile id="4f23-6f02-7847-5fdd" name="World Eaters Master of Executions" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+        <profile id="4f23-6f02-7847-5fdd" name="Master of Executions" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
@@ -1186,11 +1186,6 @@
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following unit:
 - KHORNE BERSERKERS</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="4f7f-4559-76e4-b73a" name="Trophy Taker" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, models in that unit have the Fights First ability.</characteristic>
           </characteristics>
         </profile>
         <profile id="22df-03a4-7b94-437f" name="A Worthy Skull" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
