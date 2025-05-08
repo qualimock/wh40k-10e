@@ -20,7 +20,7 @@
     <categoryEntry id="59a2-5bf7-970b-4720" name="Lord Invocatus" hidden="false"/>
     <categoryEntry id="e531-2b12-c56c-aa51" name="Lord on Juggernaut" hidden="false"/>
     <categoryEntry id="11bd-04b2-ef68-f7b7" name="Master of Executions" hidden="false"/>
-    <categoryEntry id="802c-f8e1-e339-84b3" name="Berserkers" hidden="false"/>
+    <categoryEntry id="802c-f8e1-e339-84b3" name="Berzerkers" hidden="false"/>
     <categoryEntry id="f05b-e25f-cda0-4669" name="Jakhals" hidden="false"/>
     <categoryEntry id="de05-aa6e-fc97-c400" name="Terminator" hidden="false"/>
     <categoryEntry id="bed2-a2a1-caf3-d9d7" name="Terminator Squad" hidden="false"/>
@@ -51,7 +51,7 @@
     <entryLink id="7541-4d29-df98-afc4" name="Daemon Prince of Khorne with wings" hidden="false" collective="false" import="true" targetId="0294-61a4-c6ed-b2e8" type="selectionEntry"/>
     <entryLink id="222c-8db7-5b68-a060" name="World Eaters Lord on Juggernaut" hidden="false" collective="false" import="true" targetId="ec72-f024-4283-0558" type="selectionEntry"/>
     <entryLink id="ca7d-c77a-28e2-7b6b" name="World Eaters Master of Executions" hidden="false" collective="false" import="true" targetId="1b56-682c-ac33-bc5f" type="selectionEntry"/>
-    <entryLink id="b250-a2f9-7098-353d" name="Khorne Berserkers" hidden="false" collective="false" import="true" targetId="f909-00c7-8ba4-018a" type="selectionEntry"/>
+    <entryLink id="b250-a2f9-7098-353d" name="Khorne Berzerkers" hidden="false" collective="false" import="true" targetId="f909-00c7-8ba4-018a" type="selectionEntry"/>
     <entryLink id="94b7-fa73-a8cd-5b9d" name="World Eaters Terminator Squad" hidden="false" collective="false" import="true" targetId="45f6-8429-a1d9-2a51" type="selectionEntry"/>
     <entryLink id="8568-71db-b833-93d5" name="Jakhals" hidden="false" collective="false" import="true" targetId="6f81-4538-a414-251e" type="selectionEntry"/>
     <entryLink id="96aa-4baa-2cb2-da3d" name="Eightbound" hidden="false" collective="false" import="true" targetId="9435-1f44-7e5b-d510" type="selectionEntry"/>
@@ -512,7 +512,7 @@
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of your Charge phase, if this model is leading a unit and that unit is not within Engagement Range of one or more enemy units, you must take a Leadership test for this model. If that test is failed, one Bodyguard model in that unit is destroyed.</characteristic>
           </characteristics>
         </profile>
-        <profile id="72fe-bca8-a252-eeb2" name="Berserker Fury" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+        <profile id="72fe-bca8-a252-eeb2" name="Berzerker Fury" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">The first time this model is destroyed, at the end of the phase, roll one D6: on a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of one or more enemy units, with 3 wound remaining.</characteristic>
           </characteristics>
@@ -1277,7 +1277,7 @@
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f909-00c7-8ba4-018a" name="Khorne Berserkers" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="f909-00c7-8ba4-018a" name="Khorne Berzerkers" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="51b2-306e-1021-d207" value="360">
           <conditions>
@@ -1306,16 +1306,16 @@
         <categoryLink id="9e23-fe9f-c7dc-d54b" name="Grenades" hidden="false" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
         <categoryLink id="d8cb-3a18-b9e2-5c31" name="Chaos" hidden="false" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink id="1e69-77d5-4cb7-6812" name="Khorne" hidden="false" targetId="4bd-5ee0-f179-2fc5" primary="false"/>
-        <categoryLink id="3290-ef3c-8814-f0cc" name="Berserkers" hidden="false" targetId="802c-f8e1-e339-84b3" primary="false"/>
+        <categoryLink id="3290-ef3c-8814-f0cc" name="Berzerkers" hidden="false" targetId="802c-f8e1-e339-84b3" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="38fb-1df5-8eb6-fdf6" name="Khorne Berserker Champion" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="38fb-1df5-8eb6-fdf6" name="Khorne Berzerker Champion" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="474a-d729-b9bd-57a1" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ae5-7d1d-fa65-170a" type="max"/>
           </constraints>
           <profiles>
-            <profile id="7f42-27e5-d197-1b90" name="Khorne Berserker" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+            <profile id="7f42-27e5-d197-1b90" name="Khorne Berzerker" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
               <characteristics>
                 <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
                 <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
@@ -1342,24 +1342,24 @@
             <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
           </costs>
           <entryLinks>
-            <entryLink id="91f1-dd1d-f3c7-3be4" name="Berserker chainblade" hidden="false" collective="false" import="true" targetId="44b0-1947-ea4a-3005" type="selectionEntry"/>
+            <entryLink id="91f1-dd1d-f3c7-3be4" name="Berzerker chainblade" hidden="false" collective="false" import="true" targetId="44b0-1947-ea4a-3005" type="selectionEntry"/>
           </entryLinks>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="3e13-aed4-8ef7-5eec" name="9 - 19 Khorne Berserkers" hidden="false" collective="false" import="true" defaultSelectionEntryId="b568-8a23-be6f-a14d">
+        <selectionEntryGroup id="3e13-aed4-8ef7-5eec" name="9 - 19 Khorne Berzerkers" hidden="false" collective="false" import="true" defaultSelectionEntryId="b568-8a23-be6f-a14d">
           <constraints>
             <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eaec-a01c-12f6-2a09" type="min"/>
             <constraint field="selections" scope="parent" value="19" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50f5-82c9-ea75-7533" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="b568-8a23-be6f-a14d" name="Khorne Berserker" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="b568-8a23-be6f-a14d" name="Khorne Berzerker" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="19" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a73-d7f9-8179-db60" type="max"/>
                 <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="168e-b157-a94d-739e" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink id="2b9d-2f55-fe06-c761" name="Berserker chainblade" hidden="false" collective="false" import="true" targetId="44b0-1947-ea4a-3005" type="selectionEntry"/>
+                <entryLink id="2b9d-2f55-fe06-c761" name="Berzerker chainblade" hidden="false" collective="false" import="true" targetId="44b0-1947-ea4a-3005" type="selectionEntry"/>
                 <entryLink id="fd92-3328-801a-f43c" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="2ba4-635b-fffd-0f59" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e905-042a-8d87-2916" type="min"/>
@@ -1377,7 +1377,7 @@
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry id="f2e9-2470-ad96-9ae0" name="Khorne Berserker w/ alternate weapons" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="f2e9-2470-ad96-9ae0" name="Khorne Berzerker w/ alternate weapons" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="add" field="error" value="Max 2 {this} per 5 models">
                   <conditionGroups>
@@ -1389,7 +1389,7 @@
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
-                <modifier type="set" value="Khorne Berserker w/ chainblade and plasma pistol" field="name">
+                <modifier type="set" value="Khorne Berzerker w/ chainblade and plasma pistol" field="name">
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
@@ -1399,7 +1399,7 @@
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
-                <modifier type="set" value="Khorne Berserker w/ eviscerator and plasma pistol" field="name">
+                <modifier type="set" value="Khorne Berzerker w/ eviscerator and plasma pistol" field="name">
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
@@ -1409,7 +1409,7 @@
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
-                <modifier type="set" value="Khorne Berserker w/ eviscerator and bolt pistol" field="name">
+                <modifier type="set" value="Khorne Berzerker w/ eviscerator and bolt pistol" field="name">
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
@@ -1421,7 +1421,7 @@
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7608-826b-4b1a-b7f4" type="max"/>
+                <constraint field="selections" scope="parent" value="8" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7608-826b-4b1a-b7f4" type="max"/>
               </constraints>
               <selectionEntryGroups>
                 <selectionEntryGroup id="2f2f-c80d-04cf-0f01" name="Pistol" hidden="false" collective="false" import="true">
@@ -1455,12 +1455,17 @@
                   <entryLinks>
                     <entryLink id="0975-acac-021e-a569" name="Plasma pistol" hidden="false" collective="false" import="true" targetId="47e1-9e86-8a80-66e1" type="selectionEntry">
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="f909-00c7-8ba4-018a" shared="false" id="c5a2-0842-57e9-1ab9" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <constraint type="max" value="2" field="selections" scope="f909-00c7-8ba4-018a" shared="false" id="c5a2-0842-57e9-1ab9" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                       </constraints>
                       <modifiers>
                         <modifier type="increment" value="1" field="c5a2-0842-57e9-1ab9">
                           <conditions>
-                            <condition type="atLeast" value="10" field="selections" scope="f909-00c7-8ba4-018a" childId="model" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                            <condition type="atLeast" value="15" field="selections" scope="f909-00c7-8ba4-018a" childId="model" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="increment" value="1" field="c5a2-0842-57e9-1ab9">
+                          <conditions>
+                            <condition type="atLeast" value="20" field="selections" scope="f909-00c7-8ba4-018a" childId="model" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -1473,9 +1478,9 @@
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4faa-9b6b-4afe-1048" type="max"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="ef2b-667a-9b7e-b262" name="Berserker chainblade" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="ef2b-667a-9b7e-b262" name="Berzerker chainblade" hidden="false" collective="false" import="true" type="upgrade">
                       <profiles>
-                        <profile id="9497-7e31-4d1b-c937" name="Berserker chainblade" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                        <profile id="9497-7e31-4d1b-c937" name="Berzerker chainblade" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
                           <characteristics>
                             <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
                             <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
@@ -1495,12 +1500,17 @@
                       <modifiers>
                         <modifier type="increment" field="32a9-fc67-4af9-1c36" value="1">
                           <conditions>
-                            <condition field="selections" scope="f909-00c7-8ba4-018a" value="10" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="atLeast"/>
+                            <condition field="selections" scope="f909-00c7-8ba4-018a" value="15" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="atLeast"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="increment" value="1" field="32a9-fc67-4af9-1c36">
+                          <conditions>
+                            <condition type="atLeast" value="20" field="selections" scope="f909-00c7-8ba4-018a" childId="model" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                           </conditions>
                         </modifier>
                       </modifiers>
                       <constraints>
-                        <constraint field="selections" scope="f909-00c7-8ba4-018a" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="32a9-fc67-4af9-1c36" type="max"/>
+                        <constraint field="selections" scope="f909-00c7-8ba4-018a" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="32a9-fc67-4af9-1c36" type="max"/>
                       </constraints>
                       <profiles>
                         <profile id="49c4-6969-cc96-b1fc" name="Khornate eviscerator" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
@@ -1544,13 +1554,13 @@
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="44b0-1947-ea4a-3005" name="Berserker chainblade" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="44b0-1947-ea4a-3005" name="Berzerker chainblade" hidden="false" collective="true" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07bf-05c2-8ad9-6b15" type="max"/>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d938-9b2e-cb3d-319f" type="min"/>
       </constraints>
       <profiles>
-        <profile id="48a1-4f35-83be-3220" name="Berserker chainblade" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+        <profile id="48a1-4f35-83be-3220" name="Berzerker chainblade" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
           <characteristics>
             <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
             <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
