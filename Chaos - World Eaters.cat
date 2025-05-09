@@ -671,7 +671,6 @@
         <categoryLink id="8fc8-d292-94b4-1efc" name="Mounted" hidden="false" targetId="14a0-40c9-2748-ae6e" primary="false"/>
         <categoryLink id="68a0-7de8-a111-d2b0" name="Character" hidden="false" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
         <categoryLink id="3ae4-a2f4-b769-3496" name="Epic Hero" hidden="false" targetId="4f3a-f0f7-6647-348d" primary="true"/>
-        <categoryLink id="488b-fa3a-992c-aae6" name="Grenades" hidden="false" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
         <categoryLink id="1664-af05-f9f8-332e" name="Chaos" hidden="false" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink id="6052-2511-5f55-e244" name="Khorne" hidden="false" targetId="4bd-5ee0-f179-2fc5" primary="false"/>
         <categoryLink id="980b-3add-4ec0-e085" name="Lord Invocatus" hidden="false" targetId="59a2-5bf7-970b-4720" primary="false"/>
@@ -1063,7 +1062,6 @@
         <categoryLink id="92f7-ab3a-393e-7221" name="Faction: World Eaters" hidden="false" targetId="bd1d-c1a5-6ca2-c791" primary="false"/>
         <categoryLink id="fd18-a6a6-255f-0aad" name="Mounted" hidden="false" targetId="14a0-40c9-2748-ae6e" primary="false"/>
         <categoryLink id="ea9b-6826-a989-6add" name="Character" hidden="false" targetId="9cfd-1c32-585f-7d5c" primary="true"/>
-        <categoryLink id="6aee-0622-7bad-d1b1" name="Grenades" hidden="false" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
         <categoryLink id="0ea8-9124-47bb-ce5d" name="Chaos" hidden="false" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink id="be60-5217-952d-e623" name="Khorne" hidden="false" targetId="4bd-5ee0-f179-2fc5" primary="false"/>
         <categoryLink id="f996-9443-12ab-952e" name="Lord on Juggernaut" hidden="false" targetId="e531-2b12-c56c-aa51" primary="false"/>
@@ -2213,8 +2211,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="633a-b60b-94f4-4d8e" name="Faction: World Eaters" hidden="false" targetId="bd1d-c1a5-6ca2-c791" primary="false"/>
-        <categoryLink id="0d3e-d546-127d-8199" name="Infantry" hidden="false" targetId="cf47-a0d7-7207-29dc" primary="false"/>
-        <categoryLink id="14ab-2d1d-2cfc-b673" name="Battleline" hidden="false" targetId="e338-111e-d0c6-b687" primary="true"/>
+        <categoryLink id="0d3e-d546-127d-8199" name="Infantry" hidden="false" targetId="cf47-a0d7-7207-29dc" primary="true"/>
         <categoryLink id="0b98-f991-10aa-40e0" name="Chaos" hidden="false" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink id="6041-ca6f-ebe1-ebfa" name="Khorne" hidden="false" targetId="4bd-5ee0-f179-2fc5" primary="false"/>
         <categoryLink id="01d2-17a1-e4e9-ef55" name="Jakhals" hidden="false" targetId="f05b-e25f-cda0-4669" primary="false"/>
@@ -2738,6 +2735,7 @@
         <categoryLink id="11ae-9164-2e4a-f357" name="Khorne" hidden="false" targetId="4bd-5ee0-f179-2fc5" primary="false"/>
         <categoryLink id="a568-b5d5-25f3-0464" name="Daemon" hidden="false" targetId="9c0e-7e25-4580-e439" primary="false"/>
         <categoryLink id="8ac2-fdde-ab26-1ae3" name="Eightbound" hidden="false" targetId="aa38-6b43-3c3e-3ed9" primary="false"/>
+        <categoryLink name="Possessed" hidden="false" id="9f06-bd52-3eaa-c5f7" targetId="ca41-2330-0ff6-6901" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="7e60-1733-57d1-71f3" name="Eightbound" hidden="false" collective="false" import="true" type="model">
@@ -2860,6 +2858,7 @@
         <categoryLink id="85cc-3792-e6f7-60f4" name="Khorne" hidden="false" targetId="4bd-5ee0-f179-2fc5" primary="false"/>
         <categoryLink id="402c-dd6d-494a-2f17" name="Daemon" hidden="false" targetId="9c0e-7e25-4580-e439" primary="false"/>
         <categoryLink id="0a55-f9f8-cc4a-040b" name="Exalted Eightbound" hidden="false" targetId="b8d9-6a4b-fd6b-e82d" primary="false"/>
+        <categoryLink name="Possessed" hidden="false" id="1a68-f9bf-643d-a95c" targetId="ca41-2330-0ff6-6901" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8719-8732-d0be-c527" name="Exalted Eightbound" hidden="false" collective="false" import="true" type="model">
